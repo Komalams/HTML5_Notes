@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML5</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--HTML5 https://www.javatpoint.com/html-tutorial-->
+  </head>
+  <body style="background-color: grey; color: black">
+    <script src="script.js"></script>
+
+    <p>
+    <strong>LIST OF TAGS IN HTML</strong> <br />
+    <u>HTML Meta Tags</u>
+    DOCTYPE!, title, link, meta and style <br /> <br />
+    <u>HTML Text Tags</u>
+    p, h1, h2, h3, h4, h5, h6, strong, em, abbr, acronym, address, bdo, blockquote, cite, q, code, ins, del, dfn, kbd, pre, samp, var and br <br /> <br />
+    <u>HTML Link Tags</u>
+    a and base <br /> <br /> 
+    <u>HTML Image and Object Tags</u>
+    img, area, map, param and object <br /> <br />
+    <u>HTML List Tags</u>
+    ul, ol, li, dl, dt and dd <br /> <br />
+    <u>HTML Table Tags</u>
+    table, tr, td, th, tbody, thead, tfoot, col, colgroup and caption <br /> <br />
+    <u>HTML Form Tags</u>
+    form, input, textarea, select, option, optgroup, button, label, fieldset and legend <br /> <br />
+    <u>HTML Scripting Tags</u>
+    script and noscript <br /> <br />
+    <u>Block-level element:</u>
+    <i>These are the elements, which structure main part of web page, by dividing a page into coherent blocks.
+    A block-level element always start with new line and takes the full width of web page, from left to right.
+    These elements can contain block-level as well as inline elements. </i>
+    address, article, aside, blockquote, canvas, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1-h6, header, hr, li, main, nav, noscript, ol, output, p, pre,section, table, tfoot, ul and video. <br /> <br />
+    <u>Inline elements:</u>
+    <i>Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.
+    These elements does not start with new line and take width as per requirement.
+    The Inline elements are mostly used with other elements. </i>
+    a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, script, select, small, span, strong, sub, sup, textarea, time, tt, var.
+    </p>
+
+    <div>
+    <h2>HTML ATTRIBUTES</h2>
+    <p style="height: 50px; color: blue">It will add style attribute-property of height, color in p element</p>
+    <p title="This is paragraph tag">Move the cursor over the heading and paragraph, and you will see a description as a tooltip. attribute - title</p> a -
+    <a href="">This is a link with href attribute</a> | img  
+    <img src="/images/Html.png" height="80" width="100"> |  
+    <a href=>A link to HTML.In HTML5, you can also omit use of quotes around attribute values.</a>
+    </div>
+
+    <div>
+    <h2>HTML FORMATING TAGS</h2> : text for better look and feel.
+    [ Physical tag: These tags are used to provide the visual appearance to the text. Logical tag: These tags are used to add some logical or semantic value to the text.] | 
+    <b>bold</b> | 
+    <strong>strong -Bold font and informs the browser about its logical importance, Logical tag</strong> | 
+    <i>Italic</i> | 
+    <em>em -Italic font, with added semantics importance, Logical tag</em> | 
+    <mark>To mark or highlight a text</mark> | 
+    <u>Underlined</u> | 
+    <strike>strike -Displayed with strikethrough, it is a thin line which cross the statement.</strike> | 
+    <tt>tt -If you want that each letter has the same width, dont use in html5</tt> |<pre> Pre         Tag      
+         is        a      Preserve      
+             Formatting    
+                Tag          .        </pre> | 
+    <br />Line Break- its an empty element | 
+    <hr />Horizontal Line- its an empty element | 
+    <sup>Superscript Text-above</sup> | 
+    <sub>Subscript Text- below</sub> | 
+    <del>del -Displayed as deleted text.</del> | 
+    <ins>ins -Displayed as inserted text.</ins> | 
+    <big>big -Write the text in larger font.</big> | 
+    <small>small -,Write the text in smaller font.</small>
+    <p>Paragraph tag</p>
+    </div>
+    
+    <div>
+    <h2>HTML PHRASE TAGS</h2> : are special purpose tags, which defines the structural meaning of a block of text or semantics of text. | abbr element with title attribute-<abbr title = "Hypertext Markup language"> Text Abbreviation- HTML </abbr> | Definition tag: dfn, allow to specify the keyword of the content. <dfn>HTML </dfn> | <blockquote cite="https://www.keepinspiring.me/famous-quotes/">Quoting text- <b>Blokquote element</b> shows that the enclosed content is quoted from another source. The Source URL can be given using the <b>cite attribute</b>, and text representation of source can display using cite element.</blockquote> <cite>- cite element </cite> used to represent something (name of the author) | <q>Short Quotations : q- This tag will enclose the text in double quotes.</q> | Code tags- used to <code>display the part of computer code. It will display the content in monospaced font.</code> | Keyboard tag : kbd- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>t</kbd> to restore page on chrome. | Address tag- defines the contact information about the author of the content., <address>It will be displayed in italic font.</address> | 
+    </div>
+
+    <div>
+      <h2>HTML ANCHOR TAG & ITS ATTRIBUTES</h2> : defines a hyperlink that links one page to another page. It can create hyperlink to (destination page) other web page as well as files, location, or any URL. | <a href="" target="_blank"> this-link </a>The target attribute can only use with href attribute in anchor tag. If we will not use target attribute then link will open in same page. | { other target atributes <a href = "https://www.flipkart.com/" target = "_self">Opens in Self frame</a> | <a href = "https://www.quora.com/" target = "_parent">Opens in Parent frame</a> |<a href = "https://www.amazon.in/" target = "_top">Opens in Body of the window</a> } |<a href = "mailto: abc@example.com">Send Email</a> | 
+    </div>
+
+    <div>
+    <h2>HTML IMAGE TAGS</h2>
+    image from another directory or folder-
+    <img src="/images/dasiy.jpg" alt= "flower" height="75" width="45"> | 
+    image from same directory or folder- 
+    <img src="greenery.jpg" alt= "greenery" height="50" width="50"> | we can also link an image with other page or we can use an image as a link- <a href="https://www.javatpoint.com/what-is-robotics"><img src="robot.jpg" height="25" width="25"></a> | 
+    </div>
+
+    <div>
+    <h2>HTML TABLE TAGS</h2>
+    <i>| table border attribute | can collapse all the borders in one border by border-collapse property in CSS i.e,STYLE TAG. | The cellpadding attribute of HTML table tag is obselete now, so it is recommended to use CSS (in STYLE TAG) padding   property. | Colspan & Rowspan attributes | Styling HTML table even and odd cells | A table may contain several tbody elements to indicate different pages or groups of data. But it is notable that thead and tfoot tags should appear before tbody. </i> 
+    
+     <style>  
+    table {  
+      border-collapse: collapse; 
+      width: 80%;
+    }  
+    th, td {  
+      border: 2px solid green;   
+      padding: 10px;    
+    }  
+      </style> 
+
+    <table>
+      <tr><th>col 1</th><th>col 2</th><th>col 3</th><th>col 4</th><th>col 5</th></tr>
+      <tr><td>row 2 cell 1</td><td>row 2 cell 2</td><td>row 2 cell 3</td><td>row 2 cell 4</td><td>row 2 cell 5</td></tr>
+    </table>
+    <hr />
+    <table>
+      <caption>CAPTION TAG- It must be used after table tag only.</caption>  
+      <tr><th>Name</th><th colspan="3">Mob. no.</th></tr>
+      <tr><td>abcd</td><td>9878777777</td><td>9000000000</td><td>8988888888</tr>
+      <tr><td>uvwx</td><td colspan="3">6766666666</td></tr>
+      <tr><td rowspan="2">lmno</td><td colspan="3">7000000000</td></tr>
+      <tr><td colspan="3">6755555555</td></tr>
+    </table>
+    <hr />
+    <table id="alter">  
+      <tr><th>First_Name</th><th>Last_Name</th><th>Marks</th></tr>  
+      <tr><td>Sonoo</td><td>Jaiswal</td><td>60</td></tr>  
+      <tr><td>James</td><td>William</td><td>80</td></tr>  
+      <tr><td>Swati</td><td>Sironi</td><td>82</td></tr>  
+      <tr><td>Chetna</td><td>Singh</td><td>72</td></tr>  
+    </table>
+    
+    <style>  
+      table#alter tr:nth-child(even) {  
+        background-color: #eee;  
+      }  
+      table#alter tr:nth-child(odd) {  
+        background-color: #fff;  
+      }  
+      table#alter th {  
+        color: white;  
+        background-color: gray;  
+      }  
+    </style>  
+
+    <hr />
+    <table border = "5">
+      <thead><tr><td colspan = "4">This is the head of the table</td></tr></thead>
+         
+      <tfoot><tr><td colspan = "4">This is the foot of the table</td></tr></tfoot>
+         
+      <tbody><tr><td>Cell 1</td><td>Cell 2</td><td>Cell 3</td><td>Cell 4</td></tr></tbody>   
+    </table>
+    </div>
+
+    <div>
+    <h2>ORDERED & UNORDERED LIST, DESCRIPTION LIST</h2>
+    <ol reversed>
+      <li>its</li>
+      <li>in the</li>
+      <li>seversed</li> 
+      <li>ordered</li>
+    </ol>
+    <ol type = "1">
+      <li>number</li>
+      <li>ordered</li>
+    </ol>
+    <ol type = "I">
+      <li>capitals</li>
+      <li>roman</li>
+    </ol>
+    <ol type = "i" start = "4">
+      <li>start attribute</li>
+      <li>small</li>
+      <li>roman</li>
+    </ol>
+    <ol type = "A">
+      <li>capital</li>
+      <li>letters</li>
+    </ol>
+    <ol type = "a" start = "4">
+      <li>start attribute</li>
+      <li>small</li>
+      <li>letters</li>
+    </ol>
+    <i>unordered list type attribute values-disc, circle, square, none | type attribute is not supported in HTML5, instead of type you can use CSS property of list-style-type.</i>
+    <ul style="list-style-type: circle;">  
+      <li>unordered</li>  
+      <li>lists</li>  
+      <li>with type attribute</li>  
+      <li>its value is Square</li>  
+    </ul>  
+    <i>description list dl</i>
+    <dl>  
+      <dt>defines data term</dt>  
+      <dd>defines data definition (description).</dd>   
+      <dt>JavaScript</dt>  
+      <dd>is a scripting language</dd>
+    </dl>    
+    </div>
+
+    <div>
+    <h2>HTML FORM</h2>
+    <i>If you will omit 'name' attribute then the text filled input will not be submitted to server. | to group the related information of a form. This element is used with legend element which provide caption for the grouped elements.</i>
+    <form>  
+     <fieldset>  
+        <legend>User personal information</legend>  
+        <label>Enter your full name</label><br>  
+        <input type="text" name="name"><br>  
+        <label>Enter your email</label><br>  
+        <input type="email" name="email"><br>  
+        <label>Enter your password</label><br>  
+        <input type="password" name="pass"><br>  
+        <label>confirm your password</label><br>  
+        <input type="password" name="pass"><br>  
+        <br><label>Enter your gender</label><br>  
+        <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+        <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+        <input type="radio" id="gender" name="gender" value="others"/>others <br/><br />
+        Hobby:<br>  
+              <input type="checkbox" id="cricket" name="cricket" value="cricket"/>  
+                 <label for="cricket">Cricket</label> <br>  
+              <input type="checkbox" id="football" name="football" value="football"/>  
+                 <label for="football">Football</label> <br>  
+              <input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+                 <label for="hockey">Hockey</label>    
+        <br>Enter your Address:<br>  
+        <textarea rows="2" cols="20"></textarea><br>  
+        <input type="submit" value="sign-up"> <br>
+        <hr />
+
+         <input type="reset" value="Reset">  <br /><br />
+         <input type="button" value="Click me" onclick="alert('you are learning HTML')"><br /><br />
+        <label>Select file to upload: <i>this file can be uploaded to the server with the help of JS code and file API</i></label>  
+          <input type="file" name="newfile">  <br /><br />
+        <label>can create image as submit button- <input type="image" alt="Submit" src="login.png"  width="100px">   <br /><br />
+        <i>to define an input field which contains a colour. It allows a user to specify    the colour by the visual colour interface on a browser.</i> <br><br />
+        <input type="color" name="upclick" value="#a52a2a"> Upclick<br> <br />
+        <input type="color" name="downclick" value="#f5f5dc"> Downclick <br> <br />
+        <i>allows a user to input the date in a given format. A user can enter the date     by text field or by date picker interface.</i><br>
+          Start date:<input type="date" name="Startdate"> <br>  
+          End date:<input type="date" name="Enddate"><br><br>  
+        <i>to select the date as well as local time in the hour and minute without time   zone information.</i><br>
+          Select date & time: <input type="datetime-local" name="meetingdate"> <br><br />
+        <i> to select month and year </i><br>
+          <input type="month" name="newMonth">  <br><br>
+        <i>to enter the numeric value. You can also restrict to enter a minimum and         maximum value using min and max attribute.</i><br>
+          <input type="number" name="num" min="50" max="80">  <br><br>
+        <i> enables user to enter the URL.</i><br>
+          <input type="url" name="website" placeholder="http://example.com"><br>  <br>
+        <i>to select a week and year form the drop-down calendar without time zone.</i><br>
+          <input type="week" name="bestweek">  <br><br>
+        <i>which allows a user to enter a search string. These are functionally symmetrical to the text input type, but may be styled differently.</i><br>
+          <input type="search" name="q">  <br><br>
+        <i>Here we are using two attributes that are "pattern" and"required" which will allow user to enter the number in given format and it is required to enter the TELEPHONE number in input field.</i><br>
+          <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br><br>
+
+     </fieldset>  
+    </form>  
+
+    <i>creating HTML form</i>
+    <form action="#">  
+      <table>  
+      <tr>  
+          <td class="tdLabel"><label for="register_name" class="label">Enter name:</label></td>  
+          <td><input type="text" name="name" value="" id="register_name" style="width:160px"/>  </td>  
+      </tr>  
+      <tr>  
+          <td class="tdLabel"><label for="register_password" class="label">Enter password:</label></td>  
+          <td><input type="password" name="password" id="register_password" style="width:160px"/> </td>  
+      </tr>  
+      <tr>  
+          <td class="tdLabel"><label for="register_email" class="label">Enter Email:</label></td>  
+          <td><input type="email" name="email" value="" id="register_email" style="width:160px"/></td>  
+      </tr>  
+      <tr>  
+          <td class="tdLabel"><label for="register_gender" class="label">Enter Gender:</label></td>  
+          <td>  <input type="radio" name="gender" id="register_gendermale" value="male"/>
+          <label for="register_gendermale">male</label>  
+          <input type="radio" name="gender" id="register_genderfemale" value="female"/>  
+          <label for="register_genderfemale">female</label>  </td>  
+      </tr>  
+      <tr>  
+          <td class="tdLabel"><label for="register_country" class="label">Select Country:</label></td>  
+          <td><select name="country" id="register_country" style="width:160px">  
+          <option value="india">india</option>  
+          <option value="pakistan">pakistan</option>  
+          <option value="africa">africa</option>  
+          <option value="china">china</option>  
+          <option value="other">other</option>  </select>  </td>  
+      </tr>  
+      <tr>  
+          <td colspan="2"><div align="center"><input type="submit" id="register_0" value="register"/> 
+      </tr>  
+      </table>  
+    </form> 
+    </div>
+    
+    <div>
+    <h2>HTML FORM ATTRIBUTE </h2>
+    <a href="https://www.javatpoint.com/html-form-attribute">for more details refer.</a> |
+    <u>form action="action.html"</u> defines the process to be performed on form when form is submitted. The <b>action attribute</b> value defines the web page where information proceed. It can be .php, .jsp, .asp, etc. or any URL where you want to process your form.<br /><br />
+
+    <u>form action="action.html" method="post"</u> The <b>method attribute</b> defines the HTTP method which browser used to submit the form. <br />
+    post: We can use the post value of method attribute when we want to process the sensitive data as it does not display the submitted data in URL.<br />
+    get: The get value of method attribute is default value while submitting the form. But this is not secure as it displays data in URL after submitting the form. When submitting the data, it will display the entered data in the form of: file:///D:/HTML/action.html?name=JavaTPoint&pass=123  <br /><br />
+
+    <u>form action="action.html" method="get" target="_self"</u> The <b>target attribute</b> where to open the response after submitting the form.<br />
+     _self: If we use _self as an attribute value, then the response will display in current page only. <br />
+    _blank: If we use _blank as an attribute it will load the response in a new page.<br /><br />
+
+    <u>form action="action.html" method="get" autocomplete="on"</u> The <b>HTML autocomplete attribute</b> is a newly added attribute of HTML5 which enables an input field to complete automatically. It can have two values "on" and "off" which enables autocomplete either ON or OFF. The default value of autocomplete attribute is "on". It can be used with form element and input element both.<br /><br />
+
+    <u>form action="action.html" method="post" enctype="application/x-www-form-urlencoded" </u> The <b>HTML enctype attribute</b> the encoding type of form-content while submitting the form to the server. The possible values of enctype can be:<br />
+     application/x-www-form-urlencoded: It is default encoding type if the enctype attribute is not included in the form. All characters are encoded before submitting the form.<br />
+     multipart/form-data: It does not encode any character. It is used when our form contains file-upload controls. <br />
+     text/plain (HTML5): In this encoding type only space are encoded into + symbol and no any other special character encoded.<br /><br />
+
+    <u>form action = "action.html" method = "get" novalidate</u> The novalidate attribute is newly added Boolean attribute of HTML5. If we apply this attribute in form then it does not perform any type of validation and submit the form.<hr />
+
+    <u>input type="name" name="uname"</u> & <u>input type="submit" value="Submit"</u> The HTML name attribute defines the name of an input element. The <b>name and value attribute</b> are included in HTTP request when we submit the form. Note: One should not omit the name attribute as when we submit the form the HTTP request includes both name-value pair and if name is not available it will not process that input field.<br /><br />
+
+    <u>input type="text" name="uname" value="Enter Name"</u> the <b>HTML value attribute</b> defines the initial value or default value of an input field. Note: In password input filed the value attribute will always unclear.<br /><br />
+
+    <u>input type="text" name="uname" required</u> <b>HTML required attribute HTML5</b> is a Boolean attribute which specifies that user must fill that filed before submitting the form.<br /><br />
+
+    <u>input type="text" name="uname" autofocus</u><b>HTML autofocus attribute HTML5</b> is a Boolean attribute which enables a field automatically focused when a webpage loads.<br /><br />
+
+    <u>input type="text" name="uname" placeholder="Your name"</u><b>HTML placeholder attribute HTML5</b> specifies a text within an input field which informs the user about the expected input of that filed. The placeholder attribute can be used with text, password, email, and URL values. When the user enters the value, the placeholder will be automatically removed.<br /><br />
+
+    <u>input type="text" name="uname" disabled</u> <b>HTML disabled attribute</b> when applied then it disable that input field. The disabled field does not allow the user to interact with that field. The disabled input filed does not receive click events, and these input value will not be sent to the server when submitting the form.<br /><br />
+
+    <u>input type="text" name="uname" size="40" required</u> <b>size attribute</b> controls the size of the input field in typed characters.<br /><br />
+
+    <u>form id="fcontrol"</u> <i> form closed. next if there any input feild outside the form  but still it will remain part of the form.</i> <u>input type="email" name="email"  form="fcontrol"  required & input type="submit" form="fcontrol"</u> <b>form attribute</b> allows a user to specify an input filed outside the form but remains the part of the parent form.<br /><br />
+    </div>
+
+    <div>
+      <h2>HTML style using CSS</h2> each property in CSS has a name-value pair | next is the <b>style attribute</b>- <u>style= " text-align: center; color: red; font-size: 25px; font-style: italic;  "</u> | To use CSS with HTML document, there are three ways- Inline CSS: Define CSS properties using <b>style attribute</b> within the HTML elements.<br />
+      Internal or Embedded CSS: Define CSS using <b>style tag in head section</b>. To use Internal CSS, we can use <b>class and id attributes</b>. We can use internal CSS to apply a style for a single HTML page. <pre>/*Internal CSS using element name*/  
+            body{
+              background-color:lavender;  
+             text-align: center;
+             }  
+             h2{
+               font-style: italic;  
+              font-size: 30px;  
+              color: #f08080;
+              }  
+            p{
+              font-size: 20px;
+            }  
+        /*Internal CSS using class name*/  
+            .blue{
+              color: blue;
+              }  
+            .red{
+              color: red;
+              }  
+            .green{
+              color: green;
+              }</pre> these classes can be used within the tags like this wherever you need to use - class="red" <br />
+              External CSS: Define all CSS property in a separate .css file, and then include the file with HTML file using tag in section. We can use this CSS file in any HTML file by including it in HTML file using <b>link tag in the head section</b>. <u>link rel="stylesheet" type="text/css" href="style.css"</u> | commonly used CSS properties- <u> background-color, color, padding, margin, font-family, Font-size, text-align, </u>| 
+    </div>
+
+    <div>
+    <h2>HTML CLASS ATTRIBUTE</h2> class="value" i.e., name of the CLASS as declared in CSS | CSS SYNTAX- (dot).(name of the class){   } | can use this class as an attribute in any of the HTML elements. The class name is case-sensitive. | <u>h2 class="fruit center"</u> You can use multiple class names (more than one) with HTML elements. These class names must be separated by a space. | You can use the same class name with different tags like h2 and p etc. to share the same style. | You can use JavaScript access elements with a specified class name by using the getElementsByClassName() method. |
+    </div>
+
+    <div>
+    <h2>HTML ID ATTRIBUTE</h2> tagname id="value" name of the ID as declared in CSS. CSS SYNTAX- (hash)#(name of the id){   } | The id attribute is used to specify the unique ID for an element of the HTML document. It allocates the unique identifier which is used by the CSS and the JavaScript for performing certain tasks. Note: In the Cascading Style sheet (CSS), we can easily select an element with the specific id by using the # symbol followed by id. | JavaScript can access an element with the given ID by using the getElementById() method. | 
+    </div>
+
+    <div>
+      <h2>HTML IFRAME TAG & ITS ATTRIBUTES</h2> to display a nested webpage (a webpage within a webpage). iframe tag defines an inline frame, hence it is also called as an Inline frame. An HTML iframe embeds another document within the current HTML document in the rectangular region. (The webpage content and iframe contents can interact with each other using JavaScript.) <u> iframe src="URL"</u> "src" attribute specifies the web address (URL) of the inline frame page. | <u>iframe src="https://www.javatpoint.com/" height="300" width="400"</u> can set the width and height of iframe by using "width" and "height" attributes. By default, the attributes values are specified in pixels but you can also set them in percent i.e. 50%, 60% etc.,  <u>iframe src="https://www.javatpoint.com/" height="50%" width="70%"</u> . <u> iframe src="https://www.javatpoint.com/" style="height:300px;width:400px"</u> You can also use CSS to set the height and width of the iframe. |
+      <br />Remove the border of iframe- By default, an iframe contains a border around it. You can remove the border by using style attribute and CSS border property. <u>iframe src="https://www.javatpoint.com/" style="border:none;"</u> You can also change the size, color, style of the iframe's border. <u>iframe src="https://www.javatpoint.com/" style="border:2px solid tomato;"</u> | <br /><br /> Iframe Target for a link- You can set a target frame for a link by using iframe. Your specified target attribute of the link must refer to the name attribute of the iframe. <pre>iframe height="300px" width="100%" src="new.html" name="iframe_a"
+
+      a href="" target="iframe_a" this is the link</pre> The name of iframe and link target must have same value else link will not open as a frame. | <br />
+      <br /> Embed YouTube video using iframe- You can also add a YouTube video on your webpage using the iframe tag. The attached video will be played at your webpage and you can also set height, width, autoplay, and many more properties for the video. 
+      <pre>
+        iframe width="550" height="315" 
+        src="https://www.youtube.com/embed/JHq3pL4cdy4" frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+        picture-in-picture" allowfullscreen style="padding:20px;"</pre> |
+    </div>
+
+    <div>
+      <h2>HTML JAVASCRIPT</h2> <i>click event attribute</i> <u>input type="button" value="Click" onclick="alert('Hi, how are you')"</u> | HTML <b>noscript tag</b> is used to write disabled script in the browser. The text written within noscript tag is not displayed on the browser. |
+    </div>
+
+    <div>
+      <h2>HTML FILE PATH</h2> types of File Paths: <b>Absolute file path</b> specifies full URL address. <u>img src="https://www.javatpoint.com/images/nature-1.jpg" alt="image" style="width:300px"</u> | The <b>relative file path</b> specifies to a file which is related to the location of current page. 1. The file path points to a file in the images folder located at the root of the current web. <u>img src="/images/nature-2.jpg" alt="Mountain" style="width:300px"</u> | A file path points to a file in the images folder located in the current folder. <u>img src="nature-3.jpg" alt="Mountain" style="width:300px"</u> | When the images folder located in the folder one level above the current folder. <u>img src="../images/nature4.jpg" alt="Mountain" style="width:300px"</u> | Try to use relative file paths, so that your code will be independent of URL.
+    </div>
+
+    <div>
+      <h2>METADATA</h2> The HTML head element is used as a container for metadata (data about data). head part has a crucial role an HTML document while creating a website. | Following is a list of tags used in metadata: <b>title</b>- The title element must be specific about the document and its recommended length is 65 to 70 characters including spaces.<br /> 
+      <b>style</b>- The style element can have CSS properties for that HTML page only.  <b>link</b>- The link element contains main two attributes which are "rel" and "href". The rel attribute indicates that it is a stylesheet, and href gives the path to that external file. <br />
+      <b>script</b>- HTML script element is used to apply client side JavaScript for the same page or to add an external JavaScript file to current page. If we want to use some external JavaScript file then it can be applied by- <u>script src=".js file_path"</u> <br />
+      <b>meta</b>- Metadata is mainly used by browsers, search engines, and other web services to rank your webpage better. <u>To define a character set: meta charset="UTF-8"</u> The charset attribute specifies the character encoding. In this example we have set it to "UTF-8" which means it can handle to display any language. <br />
+      <u>To define a description of your webpage: meta name="description" content="Free Web tutorials"</u> If you give a meta description then it will be useful for the relevant search to perform by search engines. <br />
+      <u>To define keywords for search engines: meta name="keywords" content="HTML, CSS, XML, JavaScript"</u> The keyword value is also used to provide keywords for a search engine, but it may ignore by browser due to spammers. <br />
+      <u>To define author of the webpage: meta name="author" content="Akon"</u> The author value specifies the name of the person who wrote the page content, and it is useful to automatically extract author information by some content management systems. <br /><u>To refresh document every 30 seconds: meta http-equiv="refresh" content="30"</u> Meta refresh is used to provide instructions to the browser to automatically refresh the page after the given time interval. If you add an URL with content value, then it will redirect to that page after the time limit will over.<u>meta http-equiv="refresh" content="5; url=https://www.javatpoint.com/html-head"</u><br /> <u>to set the Viewport</u>- Viewport is the user's visible area of a webpage. It changes from device to device and appears smaller on mobile phones than computer screens. it specifies how to control the page's dimensions and scaling. The width=device-width is used to set the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 is used to set the initial zoom level when the page is first loaded by the browser.<u>meta name="viewport" content="width=device-width, initial-scale=1.0"/</u> <br />
+      <b>base</b>- The HTML base element is used to specify the base URL and base target for all relative URLs in a page. <u>base href="https://static.javatpoint.com/htmlpages/images/" target="_blank"</u> 
+    </div>
+
+    <div>
+    <h2>HTML LAYOUTS</h2> header: It is used to define a header for a document or a section. it contains the introductory content, heading element, logo or icon for the webpage, and authorship information.<br />
+    nav: It is used to define a container for navigation links. It can contain links for the same page or for other pages.<br />
+    section: to define a section in a document. it represent a separate section of a web page which contains related element grouped together. It can contain: text, images, tables, videos, etc.<br />
+    article: to define an independent self-contained article such as big story, huge article, etc.<br />
+    aside: to define content aside from the content (like a sidebar),it defines content related to primary content.<br />
+    footer: to define a footer for a document or a section<br />
+    details: to define additional details. It mostly contains information about author, copyright, other links, etc.<br />
+    summary: to define a heading for the <b>details element- is used to add extra details about the web page and use can hide or show the details as per requirement.</b> It is used as summary, captions about the content of details element. | <br /><br />
+    LAYOUT TECHNIQUES - TABLE | CSS Frameworks: CSS Float, CSS Flexbox, | DIV tag. | <hr /><hr />
+
+    HTML Responsive web design- set view port | responsive images -<u>img src="img_girl.jpg" style="max-width:100%;height:auto;"</u> A problem with the above method (width: 100%) is that the image can be scaled up to be larger than its original size. So, it is better to use the max-width property instead. | Change images according to the browser width. By using the HTML picture element, you can set two or more images according to the browser width. It will change the picture when you change the browser-size. i.e. desktop and phone. <pre>
+      picture 
+       source srcset="img_smallflower.jpg" media="(max-width: 600px)"
+
+       img src="img_flowers.jpg" alt="Flowers" style="width:auto;"
+      picture</pre>
+    Responsive Text-size- we can make the text size to follow the browserwindow screen.<u> h1 style="font-size:10vw;">Here size is 10vw. /h1</u> Note: viewport specifies the browser window size. 1vw = 1% of viewport width. Means, if the viewport is 100cm wide, 1vw is 1.0cm. |
+    </div>
+
+    <div><h2>HTML COMPUTER CODE</h2> HTML code element <code>It is used to represent some programming code on your website. </code> | HTML kbd Element <kbd>It is used to represent user input, keyboard input, voice command etc.</div></body> | The HTML samp element <samp>is used to represent a program's output.</samp> | The HTML var element is used to define a variable. <var>The variable could be a variable in a mathematical expression or a variable in programming context.</var> | The pre element defines preformatted text, which displays the content within it in a fixed-width font. It keeps the content into its original format and ignores all formatting. |
+    </div>
+
+    <hr /> <hr /> 
+
+    <div>
+    <h1><center>HTML 5 </center></h1> HTML TAGS: Structural or Semantic Tags<br />
+    <b>article</b>	It defines the independent or self-contained content of a webpage.
+    <b>aside</b>	It defines the content which provide information about the main content.
+    <b>bdi</b>	It is used to isolate the part of text which might be formatted in another direction.
+    <b>details</b>	It defines additional information which only visible as per user demand.
+    <b>dialog</b>	It represents a dialog box or other interactive components.
+    <b>figcaption</b>	It defines caption for the <b>figure</b> element.
+    <b>figure</b>	It defines a self-contained content, and referenced as a single unit.
+    <b>footer</b>	It represents the footer section of the webpage.
+    <b>header</b>	It defines the introductory or navigational content of the webpage.
+    <b>main</b>	It specifies the main content of the HTML document.
+    <b>mark</b>	It represent the text which is highlighted or marked for reference or notation purposes.
+    <b>meter</b>	It represents a scalar value within a known range.
+    <b>nav</b>	It represents the section which contains navigation links.
+    <b>progress</b>	It defines a progress bar which shows completions progress of a task.
+    <b>rp</b>	It defines alternative content for the browser which do not support ruby annotations.
+    <b>rt</b>	It defines explanations and pronunciations of characters in ruby annotations.
+    <b>ruby</b>	It defines ruby annotations (Specifically for Asian language).
+    <b>section</b>	It defines a generic section within an HTML document.
+    <b>summary</b>	It defines summary or caption for a <b>details</b> element which can be clicked to change the state of <b>details</b> element.
+    <b>time</b>	It defines data/time within an HTML document.
+    <b>wbr</b>	It specifies a line break opportunity. (Where line break possible)<br />
+    HTML5 Form Tags
+    <b>datalist</b>	It represent predefined list for input <b>option</b> element.
+    <b>output</b>	It is used a container element to represent the output of a calculation or outcome of user action. <br />
+    Graphics Tags
+    <b>canvas</b>	It allows drawing graphics and animations via scripting.
+    <b>svg</b>	It is used to draw scalable vector graphics. <br />
+    HTML5 Media Tags
+    <b>audio</b>	It defines sound content.
+    <b>embed</b>	It defines a container for external files/application/media.
+    <b>source</b>	It defines multiple media resources for the media elements.
+    <b>track</b>	It defines text tracks for <b>audio</b> and <b>video</b> files
+    <b>video</b>	It defines video content within HTML document. |<br /> HTML event attributes: Windows, Form, Keyboard, Mouse, Clipboard, Media, Event Attributes.
+        
+    <h2>HTML GOOGLE MAPS</h2><u>div id="map" style="width:400px;height:400px;background:green"</u> <div id="map" style="width:400px; height:400px; background:green">My map will go here...</div>
+
+     <h2>HTML SEMANTICS</h2> Semantic elements= elements with a meaning. Semantic elements have a simple and clear meaning for both, the browser and the developer. | Semantic elements can increase the accessibility of your website, and also helps to create a better website structure. | HTML <b>article element</b> defines article content within a document, page, application, or a website. It can be used to represent a forum post, a magazine, a newspaper article, or a big story. | The <b>aside element</b> represent the content which is indirectly giving information to the main content of the page. It is frequently represented as a sidebar. | The <b>section element</b> is used to represent the standalone section within an HTML document. A page can have various sections and each section can contain any content, but headings for each section is not mandatory. | The HTML <b>nav element</b> is used to define a set of navigation links. | The <b>header element</b> represent the header of the document which can contain introductory content or navigation links. | The <b> footer tag</b> defines the footer of an HTML document or page. | 
+     <h2>AUDIO TAG</h2> Three supported file format for HTML 5 audio tag. mp3, wav, ogg | <audio controls>  
+      <source src="Krishna Manamohana Radha krishna kannada serial Rukmini love towards krishna #Radhakrishna.mp3" type="audio/mpeg">  
+      Your browser does not support the html audio tag. </audio> | we are going to use controls, autoplay, loop and src attributes of HTML audio tag. |  
+      <h2>VIDEO TAG</h2> three video formats supported for HTML video tag: mp4, webM, ogg | <video width="320" height="240" controls autoplay loop>  
+        <source src="movie.mp4" type="video/mp4">  
+        Your browser does not support the html video tag.  
+      </video>  | 
+      <h2>HTML SVG</h2> Scalable Vector Graphics | SVG circle : <svg width="100" height="100">  
+      <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />  </svg>  | 
+      SVG rectangle : <svg width="200" height="100">  
+      <rect width="200" height="100" stroke="yellow" stroke-width="4" fill="red" />  </svg> | SVG polygon : <svg height="210" width="500">  
+      <polygon points="100,10 40,198 190,78 10,78 160,198"  
+      style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />  </svg> | Why SVG is preferred over other image formats?
+      <br />SVG images can be saved as the smallest size possible. Unlike bitmap image formats like JPG or PNG, it does not contain a fixed set of dots. So it is also easy to print with high quality at any resolution.<br />SVG images can be zoomed to a certain level without degradation of the picture quality.<br />SVG images and their behaviors are defined in XML text files, so they can be created and edited with any text editor. | 
+      <h2>HTML CANVAS</h2> <a href="https://www.javatpoint.com/html-canvas"> for More Refer here.</a> | The HTML canvas element provides HTML a bitmapped surface to work with. It is used to draw graphics on the web page. The HTML 5 canvas tag is used to draw graphics using scripting language like JavaScript. The canvas element is only a container for graphics, you must need a scripting language to draw the graphics. The canvas element allows for dynamic and scriptable rendering of 2D shapes and bitmap images. | <canvas id="myCanvas" width="300" height="200" style="border:2px solid;">  
+      Your browser does not support the HTML5 canvas tag.  </canvas>   | <hr /><hr /> 
+
+      HTML API: HTML Drag & Drop, HTML Geolocation, HTML Web Storage open link, HTML Web Workers, HTML SS Event, HTML Color Names, HTML Color Names<br />
+      JAVASCRIPT (BASICS) KNOWLEDGE IS NEEDED TO UNDERSTAND THESE CONCEPTS :) |
+  </body>
+</html>
